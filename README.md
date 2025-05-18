@@ -20,7 +20,7 @@ This project outlines the critical steps and tools involved in migrating workloa
 - Integration with Azure AI services (e.g., Document Intelligence, OpenAI)
 - Cost and performance optimization
 
-📁 [View Project Folder](./projects/migration-essentials-azure-ai/)
+## workin in progress will become available later on📁 [View Project Folder](./projects/migration-essentials-azure-ai/) ##
 
 ---
 
