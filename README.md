@@ -32,7 +32,7 @@ This app uses:
 - Azure OpenAI to generate remediation suggestions
 - (Planned) Azure Functions to automate responses
 
-📁 [View Project Folder](./projects/anomaly-detector-app)
+# this link is temporarily unavailable 📁 [View Project Folder](./projects/anomaly-detector-app) #
 
 ---
 
