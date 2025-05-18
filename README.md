@@ -10,29 +10,29 @@ Welcome to my learning journal for the [Microsoft AI Skills Challenge](https://a
 
 ---
 
-## ✅ Learning Path Progress
+## 📦 Migration Essentials for Azure and AI Workloads
 
-| Learning Path                                                                 | Status     |
-|-------------------------------------------------------------------------------|------------|
-| [Get started with Azure AI](https://learn.microsoft.com/training/paths/get-started-azure-ai/) | ✅ Completed |
-| Use Azure AI services to build intelligence into your apps                   | ⬜ In Progress |
-| Develop machine learning models with Azure Machine Learning                  | ⬜ Not Started |
-| Use natural language processing with Azure OpenAI Service                    | ⬜ Not Started |
-| Build bots and AI-powered apps with Azure AI Studio                          | ⬜ Not Started |
+This project outlines the critical steps and tools involved in migrating workloads to Azure while integrating AI services where applicable.
+
+**Key components:**
+- Assessment and planning tools (Azure Migrate, TCO calculator)
+- Resource provisioning and migration strategy
+- Integration with Azure AI services (e.g., Document Intelligence, OpenAI)
+- Cost and performance optimization
+
+📁 [View Project Folder](./projects/migration-essentials-azure-ai/)
 
 ---
 
-## 🛠️ Current Projects
+## ✅ Learning Path Progress
 
-### 🔍 Anomaly Detection and Remediation App
-
-This app uses:
-- Azure Monitor + Log Analytics for metrics collection
-- Azure Anomaly Detector to flag irregularities
-- Azure OpenAI to generate remediation suggestions
-- (Planned) Azure Functions to automate responses
-
-# this link is temporarily unavailable 📁 [View Project Folder](./projects/anomaly-detector-app) #
+| Learning Path                                                                 | Status       |
+|-------------------------------------------------------------------------------|--------------|
+| [Get started with Azure AI](https://learn.microsoft.com/training/paths/get-started-azure-ai/) | ✅ Completed   |
+| [Use Azure AI services to build intelligence into your apps](https://learn.microsoft.com/training/paths/use-azure-ai-services/) | ⬜ In Progress |
+| [Develop machine learning models with Azure Machine Learning](https://learn.microsoft.com/training/paths/create-no-code-predictive-models-azure-machine-learning/) | ⬜ Not Started |
+| [Use natural language processing with Azure OpenAI Service](https://learn.microsoft.com/training/paths/use-natural-language-processing-openai/) | ⬜ Not Started |
+| [Build bots and AI-powered apps with Azure AI Studio](https://learn.microsoft.com/training/paths/build-bots-apps-ai-studio/) | ⬜ Not Started |
 
 ---
 
@@ -46,9 +46,11 @@ This app uses:
 ---
 
 ## 📚 My Microsoft Learn Profile
+
 🔗 [View my Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/han-1434/)
 
 ---
+
 ## 🏅 Badges & Achievements
 
 You can view my earned badges and certifications here:  
@@ -56,4 +58,9 @@ You can view my earned badges and certifications here:
 
 ---
 
-Feel free to ⭐ this repo if you're following a similar journey or want to stay updated!
+## 💬 Feedback & Collaboration
+
+Feel free to ⭐ this repo if you're following a similar journey.  
+Open an issue or fork the project if you'd like to collaborate or discuss Azure AI use cases!
+
+
