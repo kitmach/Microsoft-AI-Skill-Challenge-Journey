@@ -39,3 +39,30 @@ az deployment group create `
   --resource-group 240900-linux-postgres `
   --template-file deploy/empty.bicep `
   --mode Complete
+✅ Learning Path Progress
+Learning Path	Status
+Get started with Azure AI	✅ Completed
+Use Azure AI services to build intelligence into your apps	⬜ In Progress
+Develop machine learning models with Azure Machine Learning	⬜ Not Started
+Use natural language processing with Azure OpenAI Service	⬜ Not Started
+Build bots and AI-powered apps with Azure AI Studio	⬜ Not Started
+
+🧠 Key Learnings So Far
+Configuring Azure Cognitive Services via single-service resources
+
+Integrating APIs like Anomaly Detector and OpenAI in Python
+
+Using Azure Monitor and Logic Apps for workflow automation
+
+Understanding cost management and resource planning in Azure
+
+📚 My Microsoft Learn Profile
+🔗 View my Microsoft Learn Profile
+
+🏅 Badges & Achievements
+You can view my earned badges and certifications here:
+🔗 https://learn.microsoft.com/en-us/users/han-1434/achievements
+
+💬 Feedback & Collaboration
+Feel free to ⭐ this repo if you're following a similar journey.
+Open an issue or fork the project if you'd like to collaborate or discuss Azure AI use cases!
