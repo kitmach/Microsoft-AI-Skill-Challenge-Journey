@@ -4,65 +4,81 @@ Welcome to my learning journal for the [Microsoft AI Skills Challenge](https://a
 
 ---
 
-## 📅 Challenge Dates
+## 📅 Challenge Dates  
 **Start Date:** May 13, 2025  
-**End Date:** May 29, 2025
+**End Date:** May 29, 2025  
+**Challenge Completed:** ✅ May 21, 2025
 
 ---
 
-## 📦 Migration Essentials for Azure and AI Workloads
+## 🏁 Challenge Completed: Migration Essentials for Azure and AI Workloads
 
-This section documents my work through the migration path of the challenge, including hands-on deployment, testing, and teardown of Azure-hosted applications.
+This section documents my work through the full learning path and hands-on project for the "Migration Essentials for Azure and AI Workloads" challenge.
 
 📁 [View Project Folder](./projects/migration-essentials-azure-ai/)
 
 ### 🔧 Completed Labs & Actions
 
-- Migrated a Go-based web app and PostgreSQL database to Azure VM + Azure Database for PostgreSQL (Flexible Server)
-- Exposed the app on `http://<vm-ip>:8080` and verified via curl/browser
-- Handled real-time web requests and viewed structured logs
-- Created NSG and ASG rules to protect VM access
-- Explored authentication using **Managed Identity + Microsoft Entra ID**
-- Cleaned up all resources using `az deployment group create --mode Complete`
+- Migrated a Go-based web application and PostgreSQL database to Azure
+- Provisioned a VM and Azure Database for PostgreSQL (Flexible Server)
+- Verified deployment with real-time web requests and logging
+- Applied NSG and ASG rules to limit access and enhance security
+- Used **Azure Migrate** for discovery and assessment
+- Integrated **Managed Identity** for secure resource access
+- Practiced deployment clean-up using Bicep and CLI
 
-### 🔐 Security Learnings
+### 🔐 Security Best Practices Learned
 
-- Prefer **Managed Identity** for secure database connections (no secrets in code)
-- Limit VM access using **NSG rules** instead of exposing public ports
-- Monitor logs for abnormal traffic (e.g., `/cgi-bin/luci/...` exploit attempts)
-- Always delete unused resources to reduce cost and attack surface
+- Use **Managed Identity** over secrets in code
+- Lock down public exposure with **NSGs and ASGs**
+- Enable **Monitoring and Defender for Cloud** to assess workloads
+- Conduct regular cleanup to minimize security and cost overhead
 
-### 🛠️ Cleanup Command Used
+### 📊 Final Thoughts
 
-```powershell
-az deployment group create `
-  --resource-group 240900-linux-postgres `
-  --template-file deploy/empty.bicep `
-  --mode Complete
-✅ Learning Path Progress
-Learning Path	Status
-Get started with Azure AI	✅ Completed
-Use Azure AI services to build intelligence into your apps	⬜ In Progress
-Develop machine learning models with Azure Machine Learning	⬜ Not Started
-Use natural language processing with Azure OpenAI Service	⬜ Not Started
-Build bots and AI-powered apps with Azure AI Studio	⬜ Not Started
+This challenge enhanced my understanding of:
+- Migrating workloads to Azure safely and effectively
+- Securing infrastructure using Azure-native tools
+- Integrating AI services like **OpenAI, Document Intelligence**, and **Anomaly Detector**
+- Setting up **Synapse Studio**, **Azure Data Lake Gen2**, and secure storage permissions
 
-🧠 Key Learnings So Far
-Configuring Azure Cognitive Services via single-service resources
+---
 
-Integrating APIs like Anomaly Detector and OpenAI in Python
+## ✅ Learning Path Progress
 
-Using Azure Monitor and Logic Apps for workflow automation
+| Learning Path                                                                 | Status        |
+|-------------------------------------------------------------------------------|---------------|
+| [Get started with Azure AI](https://learn.microsoft.com/training/paths/get-started-azure-ai/) | ✅ Completed    |
+| [Use Azure AI services to build intelligence into your apps](https://learn.microsoft.com/training/paths/use-azure-ai-services/) | ✅ Completed    |
+| [Develop machine learning models with Azure Machine Learning](https://learn.microsoft.com/training/paths/create-no-code-predictive-models-azure-machine-learning/) | ✅ Completed    |
+| [Use natural language processing with Azure OpenAI Service](https://learn.microsoft.com/training/paths/use-natural-language-processing-openai/) | ✅ Completed    |
+| [Build bots and AI-powered apps with Azure AI Studio](https://learn.microsoft.com/training/paths/build-bots-apps-ai-studio/) | ✅ Completed    |
+| [Explore Azure networking with SAP RISE](https://learn.microsoft.com/training/paths/explore-azure-networking-sap-rise/) | ✅ Completed    |
 
-Understanding cost management and resource planning in Azure
+---
 
-📚 My Microsoft Learn Profile
-🔗 View my Microsoft Learn Profile
+## 🧠 Key Learnings Throughout the Challenge
 
-🏅 Badges & Achievements
-You can view my earned badges and certifications here:
-🔗 https://learn.microsoft.com/en-us/users/han-1434/achievements
+- Azure Migrate: assessment, replication, and migration process
+- NSG, ASG, and managed identity best practices
+- Integration of Azure AI services into real apps
+- Synapse Studio and Data Lake Gen2 configuration
+- Azure Monitor, Defender for Cloud, and cost management tools
 
-💬 Feedback & Collaboration
-Feel free to ⭐ this repo if you're following a similar journey.
-Open an issue or fork the project if you'd like to collaborate or discuss Azure AI use cases!
+---
+
+## 📚 My Microsoft Learn Profile  
+🔗 [View my Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/han-1434/)
+
+---
+
+## 🏅 Badges & Achievements  
+🏁 [View my completed challenge and badges](https://learn.microsoft.com/en-us/users/han-1434/achievements)  
+🌐 [Leaderboard & Challenge Page](https://learn.microsoft.com/en-us/challenges/xepncpto2qmg5j/leaderboard?wt.mc_id=challenges_nudge_to_complete_email_learn)
+
+---
+
+## 💬 Feedback & Collaboration
+
+Feel free to ⭐ this repo if you're on a similar journey.  
+Open an issue or fork the project if you'd like to collaborate, especially around Azure AI, migrations, or networking for hybrid/cloud environments!
