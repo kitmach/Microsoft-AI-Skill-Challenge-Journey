@@ -15,8 +15,6 @@ Welcome to my learning journal for the [Microsoft AI Skills Challenge](https://a
 
 This section documents my work through the full learning path and hands-on project for the "Migration Essentials for Azure and AI Workloads" challenge.
 
-📁 [View Project Folder](./projects/migration-essentials-azure-ai/)
-
 ### 🔧 Completed Labs & Actions
 
 - Migrated a Go-based web application and PostgreSQL database to Azure
